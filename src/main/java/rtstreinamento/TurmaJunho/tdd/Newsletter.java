@@ -18,7 +18,7 @@ public final class Newsletter {
 				"/usr/projeto/phantomjs-1.9.7-linux-i686/bin/phantomjs");
 
 		System.setProperty("webdriver.chrome.driver",
-				"/usr/projetos/chomedriver");
+				"/usr/projeto/chomedriver");
 		// driver = new ChromeDriver();
 		driver = new PhantomJSDriver();
 		// driver = new HtmlUnitDriver(true);
