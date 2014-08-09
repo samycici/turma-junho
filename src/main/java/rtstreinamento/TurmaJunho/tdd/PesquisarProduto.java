@@ -12,7 +12,7 @@ public class PesquisarProduto {
 	
 	public PesquisarProduto() {
 		System.setProperty("webdriver.chrome.driver",
-				"c:\\web-drivers\\chromedriver.exe");
+				"/usr/projetos/chomedriver");
 		driver = new ChromeDriver();
 		driver.get("http://tghcastro.lojaintegrada.com.br/");
 	}

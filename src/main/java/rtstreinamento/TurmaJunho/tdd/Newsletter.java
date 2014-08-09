@@ -15,10 +15,10 @@ public final class Newsletter {
 
 	public Newsletter() {
 		System.setProperty("phatomjs.binary.path",
-				"c:\\web-drivers\\phatomjs.exe");
+				"/usr/projeto/phantomjs-1.9.7-linux-i686/bin/phantomjs");
 
 		System.setProperty("webdriver.chrome.driver",
-				"c:\\web-drivers\\chromedriver.exe");
+				"/usr/projetos/chomedriver");
 		// driver = new ChromeDriver();
 		driver = new PhantomJSDriver();
 		// driver = new HtmlUnitDriver(true);
